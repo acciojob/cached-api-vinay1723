@@ -52,7 +52,7 @@ export default function CachedApi() {
         <ul>
           {cachedPosts.map((post) => (
             <li key={post.id}>
-              <strong>{post.title}</strong>
+              <h4>{post.title}</h4>
               <p>{post.body}</p>
             </li>
           ))}
